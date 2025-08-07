@@ -6,7 +6,7 @@ class Game:
     def __init__(self):
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
-        pygame.display.set_caption("Zelda in Cambodia")
+        pygame.display.set_caption("Angkor Boy")
         self.clock = pygame.time.Clock()
         self.running = True
 
