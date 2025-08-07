@@ -1,6 +1,6 @@
-# Zelda in Cambodia
+# Angkor Boy
 
-A 2D adventure game inspired by the classic "The Legend of Zelda" series, set in the beautiful landscapes of Cambodia. This project is built with Python and the Pygame library.
+A 2D adventure game set in the beautiful landscapes of Cambodia. This project is built with Python and the Pygame library.
 
 ## Current State
 
