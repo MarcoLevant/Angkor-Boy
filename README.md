@@ -18,8 +18,8 @@ Make sure you have Python 3 installed on your system. You can download it from [
 
 1.  **Clone the repository (if you haven't already):**
     ```bash
-    git clone https://github.com/your-username/zelda-in-cambodia.git
-    cd zelda-in-cambodia
+    git clone https://github.com/your-username/angkor-boy.git
+    cd angkor-boy
     ```
 
 2.  **Create and activate a virtual environment (optional but recommended):**
@@ -42,7 +42,7 @@ Make sure you have Python 3 installed on your system. You can download it from [
 Once you have installed the dependencies, you can run the game with the following command:
 
 ```bash
-python zelda_in_cambodia/main.py
+python angkor_boy/main.py
 ```
 
 This will launch a window with a black screen. To exit, simply close the window.
