@@ -1,6 +1,7 @@
 import pygame
 import sys
 from settings import *
+from world import World
 
 class Game:
     def __init__(self):
@@ -9,6 +10,7 @@ class Game:
         pygame.display.set_caption("Angkor Boy")
         self.clock = pygame.time.Clock()
         self.running = True
+        self.world = World()
 
     def run(self):
         while self.running:
@@ -23,10 +25,11 @@ class Game:
                 self.running = False
 
     def update(self):
-        pass
+        self.world.update()
 
     def draw(self):
         self.screen.fill((0, 0, 0)) # Black background
+        self.world.draw(self.screen)
         pygame.display.flip()
 
     def quit(self):
